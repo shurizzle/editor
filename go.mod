@@ -16,7 +16,11 @@ require (
 	golang.org/x/tools v0.22.0
 )
 
-require golang.org/x/sync v0.7.0 // indirect
+require (
+	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
+	github.com/rajveermalviya/go-wayland/wayland v0.0.0-20230130181619-0ad78d1310b2
+	golang.org/x/sync v0.7.0 // indirect
+)
 
 retract (
 	v2.0.7+incompatible
